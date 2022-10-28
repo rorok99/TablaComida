@@ -3,7 +3,7 @@ const precios = [12, 23, 7, 19, 10];
 $(() => {
   const $element = $("#table tbody tr");
   const $buy = $("#buy");
-  $element.on("click", function(e) {
+  $element.on("click", function (e) {
     $(this).toggleClass("btn-secondary");
     let sm = 0;
     for (let i = 0; i < $element.length; i++) {
@@ -12,8 +12,7 @@ $(() => {
     }
     $buy.find("span").text(sm);
   });
-  $buy.on("click", function(e) {
-    $buy.find("span").text(24)
+  $buy.on("click", function (e) {
     console.log($buy.find("span").text());
   });
 
