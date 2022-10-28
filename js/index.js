@@ -7,9 +7,8 @@ $(() => {
     $(this).toggleClass("btn-secondary");
     let sm = 0;
     for (let i = 0; i < $element.length; i++) {
-      if ($($element)[i].hasClass("btn-secondary"))
-        // sm += precios[i];
-        alert("asasd");
+      if ($($element[i]).hasClass("btn-secondary"))
+        sm += precios[i];
     }
     $buy.find("span").text(sm);
   });
