@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/bootstrap-css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/index.css">
   </link>
   <title>Proyecto</title>
 </head>
@@ -25,15 +26,18 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#" data-toggle="modal" data-target="#staticBackdrop">Registro</a>
+          <a id="register" class="nav-link" data-toggle="modal" data-target="#staticBackdrop">Registro</a>
+        </li>
+        <li id="logout" class="nav-item invisible">
+          <a class="nav-link">Logout</a>
         </li>
       </ul>
     </div>
   </nav>
-  <div class="container mt-5">
+  <div class="container-md container-fluid mt-5">
     <h1>Restaurante Familiar UCI</h1>
     <div class="row">
-      <div class="card mt-5 col-8 shadow">
+      <div class="card mt-5 col-md-8 col-12 shadow">
         <div class="card-body">
           <h5 class="card-title text-center">
             Productos
@@ -114,7 +118,7 @@
                           <label for="repeatpassword">Repita su contraseña</label>
                           <input type="password" class="form-control" id="repeatpassword">
                         </div>
-                        <button type="submit" class="btn btn-primary mt-3">Registrarse</button>
+                        <button type="button" class="btn btn-primary mt-3">Registrarse</button>
                       </form>
 
                     </div>

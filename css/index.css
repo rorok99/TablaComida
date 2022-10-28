@@ -1,0 +1,12 @@
+#logout {
+    transform: translate(-75px, 0px);
+    cursor: pointer;
+}
+
+#register {
+    cursor: pointer;
+}
+
+tr {
+    cursor: pointer;
+}
