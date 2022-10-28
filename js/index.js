@@ -1,4 +1,4 @@
-const precios = [12, 23, 7, 19, 10, 32, 25];
+const precios = [12, 23, 7, 19, 10];
 
 $(() => {
   const $element = $("#table tbody tr");
